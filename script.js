@@ -7,11 +7,11 @@ let clickCount = 0;  // 记录点击 No 的次数
 
 // No 按钮的文字变化
 const noTexts = [
-    "对不起，我知道错了", 
-    "零花钱都给你", 
-    "欲擒故纵，我懂！", 
-    "能不能给个台阶嘛", 
-    "原谅我嘛，对不起"
+    "对不起，我知道错了 Sorry,I knew it's my fault honestly", 
+    "零花钱都给你 I'll give all my gifts to you", 
+    "欲擒故纵，我懂！ You want to trick me right?", 
+    "能不能给个台阶嘛 Please give me a chance T_T", 
+    "原谅我嘛，对不起 Can you forgive me please,sorrrry!"
 ];
 
 // No 按钮点击事件
@@ -55,4 +55,5 @@ yesButton.addEventListener("click", function() {
     `;
 
     document.body.style.overflow = "hidden";
+
 });
